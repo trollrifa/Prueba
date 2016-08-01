@@ -6,7 +6,7 @@
     <content src="index.html" />
     <icon src="icon.png" />
     <access origin="*" launch-external="yes" />
-    <access origin="http://uabcs.opengate.mx" browserOnly="true" />
+    <access origin="http://uabcs.opengate.mx" />
     <allow-navigation href="*://*.opengate.mx/*" />
     <allow-intent href="*://*.opengate.mx/*" />
     <allow-intent href="http://*/*" />
