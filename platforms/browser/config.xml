@@ -5,7 +5,9 @@
     <author email="support@phonegap.com" href="http://phonegap.com">PhoneGap Team</author>
     <content src="index.html" />
     <icon src="icon.png" />
-    <access origin="*" />
+    <access origin="*" launch-external="yes" />
+    <allow-navigation href="*://*.opengate.mx/*" />
+    <allow-intent href="*://*.opengate.mx/*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
     <allow-intent href="tel:*" />
